@@ -3,20 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-/*    font-family: 'Playfair Display', serif;*/
     text-align: left;
     font-size: 12px;
     
 }
 
 
-
-
 body {
-   
  width: 80%;
 	margin: 0 auto;
-
 	line-height: 2;	
 }
 
@@ -32,13 +27,23 @@ a:hover{
     color : white;
     transition: 0.3s;
 }
+a:hover span{
+/*    background: #991f1f;*/
+    color : white;
+    transition: 0.3s;
+}
+
+p a{
+    font-weight: bolder;
+    padding: 5px;
+}
 
 header {
     z-index: 2;
     width: inherit;
     position: fixed;
     top: 0px;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255,0.7);
     margin: auto;
 }
 
@@ -105,12 +110,13 @@ top: 100px;
 
 
 
+
 /*ーーーーーーーーーーーーーーーーーーーーーーーーーー*/
 
 
 .works{
    float:left;
-    margin:30px 30px 30px 0;
+    margin: 16px 0px 16px 32px;
     padding: 20px;
     transition: 0.4s;
 }
@@ -190,8 +196,9 @@ top: 100px;
 }
 
 
+/*ーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+.introduction{
+    margin: auto;
+     width: 60%;
 
-.isAnimate {
-  opacity: 1;
-  transition: 0.4s;
 }
