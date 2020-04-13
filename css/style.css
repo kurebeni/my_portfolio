@@ -6,11 +6,12 @@
     text-align: left;
     font-size: 12px;
     font-family: sans-serif;
+    
 }
 
 
 body {
- width: 80%;
+ width: 82%;
 	margin: 0 auto;
 	line-height: 2;	
 }
@@ -28,7 +29,6 @@ a:hover{
     transition: 0.3s;
 }
 a:hover span{
-/*    background: #991f1f;*/
     color : white;
     transition: 0.3s;
 }
@@ -66,10 +66,9 @@ ul {
 li {
    padding:  20px 20px;
     float: left;
-/*    font-size: px;*/
 }
 
-/*-----------------------------*/
+
 
 .menubar {
     
@@ -78,27 +77,7 @@ li {
     padding: 5px;
 
 }
-/*
-.menubar li a:link {
 
-	color: #000;
-}
-
-.menubar li a:visited{
-
-	color: #000;
-}
-*/
-
-/*
-.menubar li a:hover {
-	background: #861b20;
-    color: #fff;
-    transition: 0.4s;
-}
-*/
-
-/*=======================*/
 .contents {
     width: inherit;
 z-index: 1;
@@ -109,14 +88,9 @@ top: 100px;
 }
 
 
-
-
-/*ーーーーーーーーーーーーーーーーーーーーーーーーーー*/
-
-
 .works{
    float:left;
-    margin: 16px 0px 16px 32px;
+    margin: 15px 0px 15px 30px;
     padding: 20px;
     transition: 0.4s;
 }
@@ -138,67 +112,49 @@ top: 100px;
     transition: 0.4s;
 }
 
-.main{
-    width:1000px;
-}
-.main img{
-    margin: auto;
-    max-width: 800px;
-}
 
-.main a {
-    padding: 5px;
-    transition: 0.4s;
-    text-decoration: underline;
-}
-
-
-.main a:hover {
-	background: #861b20;
-    color: #fff;
-    transition: 0.4s;
-}
-
-.dishex{
-    padding: 20px;
-    height: 240px;
-    width: 600px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    border: 1px solid black;
-    
-}
-.long{
-    padding: 20px;
-    height: 240px;
-    width: 815px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    border: 1px solid black;
-}
-
-.state{
-    width: 340px;
-
-    font-size: 13px;
-    float: left;
-    
-}
-
-.statement{
-    margin: 40px 0px;
-    border: 2px solid;
-    padding: 20px;
-}
-
-.icon{
-    padding-left: 15px;
-}
-
-
-/*ーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+/*About----------------------------*/
 .introduction{
     margin: auto;
      width: 60%;
+}
 
+/*work---------------------------*/
+
+.main{
+    margin: 100px auto;
+    width: 80%;
+    
+}
+
+h1{
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.caption{
+
+    margin: 0 auto 50px auto;
+    width: 60%;
+    
+    padding: 30px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.images{
+
+    text-align: center;
+    margin-top: 30px;
+}
+.main img{
+    width:400px;
+    border: solid;
+    border-width: thin;
+    margin: 30px
 }
