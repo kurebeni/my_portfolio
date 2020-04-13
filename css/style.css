@@ -33,7 +33,7 @@ a:hover span{
     transition: 0.3s;
 }
 
-p a{
+.link{
     font-weight: bolder;
     padding: 5px;
 }
