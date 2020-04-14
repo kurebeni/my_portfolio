@@ -147,12 +147,21 @@ iframe{
     margin-bottom: 50px;
 }
 
+/*
+.main img{
+     display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+*/
+
+
 .images{
 
     text-align: center;
     margin-top: 30px;
 }
-.main img{
+.images img{
     width:400px;
     border: solid;
     border-width: thin;
