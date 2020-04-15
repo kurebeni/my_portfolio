@@ -119,6 +119,11 @@ top: 100px;
      width: 60%;
 }
 
+.introduction span{
+    font-size: larger;
+    
+}
+
 /*work---------------------------*/
 
 .main{
@@ -166,4 +171,8 @@ iframe{
     border: solid;
     border-width: thin;
     margin: 30px
+}
+
+.photo img{
+     border: none;
 }
